@@ -1,4 +1,7 @@
 library: resteasy
+#resteasy-version: 5.6.0-REALIZE
+jackson-version: 1000000
+#threetenbp-version: 5153
 dateLibrary: java8
 groupId: ru.practice
 artifactId: artifactId
@@ -15,7 +18,8 @@ scmUrl: https://github.com/Nikolai-AltSTU/openapi-generator.git
 apiPackage: ru.practice.client.api
 modelPackage: ru.practice.client.model
 invokerPackage: ru.practice.client
-apiDocs: false
-modelDocs: false
-
+#licenses: false
+#developers: true
+#parent: false
 # mvn -f pom.genclient.xml process-sources
+
